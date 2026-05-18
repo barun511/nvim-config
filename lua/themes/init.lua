@@ -1,2 +1,3 @@
 -- Use comments to configure your theme.
-require "themes.monokai"
+-- require "themes.monokai"
+require "themes.tokyonight"

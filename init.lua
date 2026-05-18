@@ -16,4 +16,8 @@ vim.opt.clipboard:append { "unnamedplus" }
 vim.opt.termguicolors = true
 require "config"
 
+-- set default indents to width
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 print "Finished config"

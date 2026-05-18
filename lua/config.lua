@@ -2,7 +2,11 @@
 require "themes.init"
 
 -- Configure snacks (explorer, telescope, etc)
-require "lua.snacks-setup.init"
+require "snacks-setup.init"
+
+-- Confiure highlights
+require "highlights.capnp"
 
 -- Configure keymappings
 require "keymappings.explorer"
+require "keymappings.picker"
