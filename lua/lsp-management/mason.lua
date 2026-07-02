@@ -12,7 +12,7 @@ require("mason").setup()
 require("mason-lspconfig").setup {
   ensure_installed = {
     "gopls",
-    "haskell-language-server",
+    "hls",
     "rust_analyzer",
     "stylua",
     "tsgo",
