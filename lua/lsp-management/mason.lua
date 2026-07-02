@@ -15,5 +15,6 @@ require("mason-lspconfig").setup {
     "haskell-language-server",
     "rust_analyzer",
     "stylua",
+    "tsgo",
   },
 }
