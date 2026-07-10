@@ -12,6 +12,9 @@ require "snacks-setup.init"
 require "highlights.capnp"
 require "highlights.treesitter"
 
+-- Configure diagnostics
+require "diagnostics.inline"
+
 -- Configure keymappings
 require "keymappings.basic"
 require "keymappings.explorer"
